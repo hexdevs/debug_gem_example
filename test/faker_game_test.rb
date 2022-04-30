@@ -10,7 +10,7 @@ class FakerGameTest < Test::Unit::TestCase
 
   test '#title should not be nil on multiple calls' do
     1_000.times do
-      assert_equal(Faker::Game.title.nil?, false)
+      assert_not_nil Faker::Game.title
     end
   end
 end

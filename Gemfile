@@ -10,3 +10,7 @@ gem 'rake', '~> 13.0'
 gem 'test-unit', '~> 3.0'
 
 gem 'faker', '2.20.0'
+
+gem 'pry'
+
+gem 'pry-gem'
